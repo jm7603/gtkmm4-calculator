@@ -20,3 +20,13 @@ a simple calculator
 - cairo
 - gdk-pixbuf-2.0
 - graphene-1.0
+
+## Build & Run
+```shell
+cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -B build --build
+cmake --build build
+```
+```shell
+cd build
+./calculator_ui
+```
