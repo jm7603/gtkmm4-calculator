@@ -1,3 +1,4 @@
+# Cmake
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -9,3 +10,10 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+cmake-build*
+
+# The fucking .DS_Store
+.DS_Store
+
+# CLion
+.idea
