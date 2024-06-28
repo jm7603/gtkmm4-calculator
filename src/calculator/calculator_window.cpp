@@ -17,7 +17,8 @@ CalculatorWindow::CalculatorWindow(Window *window,
 
 void CalculatorWindow::putCharToDisplay(const std::string &str) {
   Glib::ustring label_content = m_label_display->get_label();
-  if (label_content == "0" || label_content == "ERROR") label_content = "";
+  //if (label_content == "0" || label_content == "ERROR") label_content = "";
+  if (label_content == "ERROR") label_content = "";
   ss_display << label_content << str;
   m_label_display->set_label(ss_display.str());
   ss_display.str("");
